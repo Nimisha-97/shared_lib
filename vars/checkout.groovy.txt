@@ -1,0 +1,3 @@
+def call() {
+checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '89958fc6-2628-4c6b-af3e-d4c4c7921efb', url: 'https://github.com/Nimisha-97/GameBack_1.git']]])
+}
